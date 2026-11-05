@@ -1,0 +1,38 @@
+# Ambientes virtuais (raiz e subpastas)
+**/.venv/
+**/venv/
+**/.venv
+**/venv
+.venv/
+venv/
+env/
+ENV/
+
+# Byte-compiled / cache do Python
+**/__pycache__/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest e Cobertura de Código
+**/.pytest_cache/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.cover
+*.py,cover
+
+# IDEs e Editores
+**/.vscode/
+.vscode/
+**/.idea/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos temporários do macOS
+**/.DS_Store
+.DS_Store
+**/__MACOSX/
+__MACOSX/
